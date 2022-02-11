@@ -9504,13 +9504,13 @@
               { className: 'markdown' },
               o.a.createElement(
                 'h2',
-                { id: 'foo' },
+                { id: 'foo11' },
                 o.a.createElement(
                   i['AnchorLink'],
-                  { to: '#foo', 'aria-hidden': 'true', tabIndex: -1 },
+                  { to: '#foo11', 'aria-hidden': 'true', tabIndex: -1 },
                   o.a.createElement('span', { className: 'icon icon-link' }),
                 ),
-                'Foo',
+                'Foo11',
               ),
               o.a.createElement('p', null, 'Demo:'),
             ),
@@ -25588,7 +25588,7 @@
   },
   q3YX: function (e) {
     e.exports = JSON.parse(
-      '{"menus":{"en-US":{"/components":[{"title":"Foo","path":"/components/h5","meta":{},"children":[]},{"title":"Foo","path":"/components/web","meta":{},"children":[]}],"*":[{"path":"/","title":"Hello myapp!","meta":{}}],"/\u4e2d\u6587\u6d4b\u8bd5":[{"path":"/\u4e2d\u6587\u6d4b\u8bd5","title":"\u4e2d\u6587\u6d4b\u8bd5","meta":{}}]}},"locales":[{"name":"en-US","label":"English"}],"navs":{"en-US":[{"path":"/\u4e2d\u6587\u6d4b\u8bd5","title":"\u4e2d\u6587\u6d4b\u8bd5"},{"title":"Components","path":"/components"}]},"title":"myapp","logo":"https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png","mode":"site","repository":{"url":"","branch":"master"},"theme":{}}',
+      '{"menus":{"en-US":{"/components":[{"title":"Foo","path":"/components/h5","meta":{},"children":[{"path":"/components/h5/foo","title":"Foo11","meta":{}}]},{"title":"Foo","path":"/components/web","meta":{},"children":[]}],"*":[{"path":"/","title":"Hello myapp!","meta":{}}],"/\u4e2d\u6587\u6d4b\u8bd5":[{"path":"/\u4e2d\u6587\u6d4b\u8bd5","title":"\u4e2d\u6587\u6d4b\u8bd5","meta":{}}]}},"locales":[{"name":"en-US","label":"English"}],"navs":{"en-US":[{"path":"/\u4e2d\u6587\u6d4b\u8bd5","title":"\u4e2d\u6587\u6d4b\u8bd5"},{"title":"Components","path":"/components"}]},"title":"myapp","logo":"https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png","mode":"site","repository":{"url":"","branch":"master"},"theme":{}}',
     );
   },
   qA1w: function (e, t, n) {
@@ -27770,12 +27770,12 @@
                 updatedTime: 164457156e4,
                 componentName: 'Foo',
                 nav: { title: 'Components', path: '/components' },
-                slugs: [{ depth: 2, value: 'Foo', heading: 'foo' }],
-                title: 'Foo',
+                slugs: [{ depth: 2, value: 'Foo11', heading: 'foo11' }],
+                title: 'Foo11',
                 hasPreviewer: !0,
                 group: { path: '/components/h5', title: 'Foo' },
               },
-              title: 'Foo - myapp',
+              title: 'Foo11 - myapp',
             },
             {
               path: '/components/web/foo',
